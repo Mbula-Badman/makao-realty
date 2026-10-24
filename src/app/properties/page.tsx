@@ -1,5 +1,4 @@
-```tsx
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Suspense } from "react";
 import { redirect } from "next/navigation";
 import { PropertyBrowser } from "@/components/property-browser";
@@ -40,7 +39,7 @@ export default async function PropertiesPage() {
         <Suspense
           fallback={
             <p className="py-16 text-center text-sm text-stone-500">
-              Preparing the collection…
+              Preparing the collection...
             </p>
           }
         >
@@ -50,4 +49,3 @@ export default async function PropertiesPage() {
     </>
   );
 }
-```
