@@ -1,0 +1,81 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum AccountRole {
+  CUSTOMER
+  ADMIN
+}
+
+model User {
+  id           String      @id @default(cuid())
+  name         String
+  email        String      @unique
+  phone        String?
+  passwordHash String
+  role         AccountRole @default(CUSTOMER)
+  createdAt    DateTime    @default(now())
+  updatedAt    DateTime    @updatedAt
+  enquiries    Enquiry[]
+
+  @@index([createdAt])
+}
+
+model Property {
+  id          String          @id @default(cuid())
+  slug        String          @unique
+  reference   String          @unique
+  title       String
+  location    String
+  county      String
+  price       Int
+  category    String
+  status      String          @default("For sale")
+  size        String
+  bedrooms    Int?
+  bathrooms   Int?
+  description String
+  amenities   String[]
+  featured    Boolean         @default(false)
+  published   Boolean         @default(false)
+  createdAt   DateTime        @default(now())
+  updatedAt   DateTime        @updatedAt
+  images      PropertyImage[]
+  enquiries   Enquiry[]
+
+  @@index([published, featured])
+  @@index([county, category, status])
+}
+
+model PropertyImage {
+  id         String   @id @default(cuid())
+  url        String
+  alt        String
+  position   Int      @default(0)
+  propertyId String
+  property   Property @relation(fields: [propertyId], references: [id], onDelete: Cascade)
+
+  @@index([propertyId, position])
+}
+
+model Enquiry {
+  id         String   @id @default(cuid())
+  name       String
+  phone      String
+  email      String
+  message    String
+  status     String   @default("NEW")
+  createdAt  DateTime @default(now())
+  propertyId String?
+  property   Property? @relation(fields: [propertyId], references: [id], onDelete: SetNull)
+  userId     String?
+  user       User?     @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([status, createdAt])
+  @@index([userId, createdAt])
+}

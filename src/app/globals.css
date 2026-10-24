@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  color: #142b2a;
+  font-family: Arial, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+::selection {
+  background: #d4bd95;
+  color: #142b2a;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  background-color: #111b1a;
+  color: #e8eee9;
+}
+
+[data-theme="dark"] body {
+  background: #111b1a;
+  color: #e8eee9;
+}
+
+[data-theme="dark"] .bg-white {
+  background-color: #1c2927;
+}
+
+[data-theme="dark"] .bg-paper {
+  background-color: #172321;
+}
+
+[data-theme="dark"] .bg-sage {
+  background-color: #293734;
+}
+
+[data-theme="dark"] .text-ink {
+  color: #edf2ed;
+}
+
+[data-theme="dark"] .text-forest {
+  color: #d8c18f;
+}
+
+[data-theme="dark"] .text-stone-600 {
+  color: #c0cbc5;
+}
+
+[data-theme="dark"] .text-stone-500 {
+  color: #a0ada7;
+}
+
+[data-theme="dark"] .text-stone-400 {
+  color: #87958f;
+}
+
+[data-theme="dark"] .text-stone-300 {
+  color: #72817a;
+}
+
+[data-theme="dark"] .border-stone-200,
+[data-theme="dark"] .border-stone-300,
+[data-theme="dark"] .border-stone-100 {
+  border-color: #354440;
+}
+
+[data-theme="dark"] .border-forest\/20 {
+  border-color: rgb(216 193 143 / 35%);
+}
+
+[data-theme="dark"] input,
+[data-theme="dark"] select,
+[data-theme="dark"] textarea {
+  color: #edf2ed;
+}
+
+[data-theme="dark"] input::placeholder,
+[data-theme="dark"] textarea::placeholder {
+  color: #87958f;
+}
+
+[data-theme="dark"] .shadow-soft {
+  box-shadow: 0 18px 60px rgb(0 0 0 / 25%);
+}
+
+.page-shell {
+  width: min(1280px, calc(100% - 64px));
+  margin-inline: auto;
+}
+
+.eyebrow {
+  color: #9b7948;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+
+.section-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 4vw, 3.15rem);
+  font-weight: 400;
+  letter-spacing: -.045em;
+  line-height: 1.08;
+}
+
+.property-image {
+  transition: transform .7s cubic-bezier(.2, .7, .2, 1);
+}
+
+.property-card:hover .property-image {
+  transform: scale(1.045);
+}
+
+@media (max-width: 640px) {
+  .page-shell {
+    width: min(100% - 36px, 1280px);
+  }
+}
