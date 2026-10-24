@@ -6,3 +6,5 @@ out/
 coverage/
 *.log
 src/generated/prisma
+
+.env.hosted

@@ -1,0 +1,270 @@
+{
+  "exportedAt": "2026-10-24T07:45:08.076Z",
+  "properties": [
+    {
+      "id": "cmvkuimud0000laqdjlq285n3",
+      "slug": "the-glasshouse-runda",
+      "reference": "MK-0248",
+      "title": "The Glasshouse, Runda",
+      "location": "Runda, Nairobi",
+      "county": "Nairobi",
+      "price": 48500000,
+      "category": "House",
+      "status": "For sale",
+      "size": "5,200 sq ft",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "description": "A calm, light-filled home framed by mature greenery. Generous living spaces open onto a private garden, with room for family life and relaxed entertaining.",
+      "amenities": [
+        "Landscaped garden",
+        "Staff quarters",
+        "Solar water heating",
+        "Gated community"
+      ],
+      "featured": true,
+      "published": true,
+      "createdAt": "2026-10-23T10:47:23.934Z",
+      "updatedAt": "2026-10-23T10:47:23.934Z",
+      "images": [
+        {
+          "id": "cmvkuimuf0001laqdsfi6bc9n",
+          "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=85",
+          "alt": "The Glasshouse, Runda property image 1",
+          "position": 0,
+          "propertyId": "cmvkuimud0000laqdjlq285n3"
+        },
+        {
+          "id": "cmvkuimuf0002laqdevdu4yrf",
+          "url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=85",
+          "alt": "The Glasshouse, Runda property image 2",
+          "position": 1,
+          "propertyId": "cmvkuimud0000laqdjlq285n3"
+        },
+        {
+          "id": "cmvkuimuf0003laqdtpo8axqk",
+          "url": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=85",
+          "alt": "The Glasshouse, Runda property image 3",
+          "position": 2,
+          "propertyId": "cmvkuimud0000laqdjlq285n3"
+        }
+      ]
+    },
+    {
+      "id": "cmvkuimwg0004laqdq5qj59tc",
+      "slug": "garden-apartment-kilimani",
+      "reference": "MK-0247",
+      "title": "Garden apartment, Kilimani",
+      "location": "Kilimani, Nairobi",
+      "county": "Nairobi",
+      "price": 18500000,
+      "category": "Apartment",
+      "status": "For sale",
+      "size": "1,850 sq ft",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "description": "A generous apartment with an easy indoor-outdoor rhythm, in a well-connected neighbourhood close to the everyday essentials.",
+      "amenities": [
+        "Private terrace",
+        "Swimming pool",
+        "Lift access",
+        "24-hour security"
+      ],
+      "featured": true,
+      "published": true,
+      "createdAt": "2026-10-23T10:47:24.016Z",
+      "updatedAt": "2026-10-23T10:47:24.016Z",
+      "images": [
+        {
+          "id": "cmvkuimwg0005laqdgzighee3",
+          "url": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1400&q=85",
+          "alt": "Garden apartment, Kilimani property image 1",
+          "position": 0,
+          "propertyId": "cmvkuimwg0004laqdq5qj59tc"
+        },
+        {
+          "id": "cmvkuimwg0006laqdt0iphlva",
+          "url": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=85",
+          "alt": "Garden apartment, Kilimani property image 2",
+          "position": 1,
+          "propertyId": "cmvkuimwg0004laqdq5qj59tc"
+        },
+        {
+          "id": "cmvkuimwg0007laqdriat9w7c",
+          "url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=85",
+          "alt": "Garden apartment, Kilimani property image 3",
+          "position": 2,
+          "propertyId": "cmvkuimwg0004laqdq5qj59tc"
+        }
+      ]
+    },
+    {
+      "id": "cmvkuimwr0008laqdiwquzgdi",
+      "slug": "ridgeway-acreage",
+      "reference": "MK-0246",
+      "title": "A quieter kind of space",
+      "location": "Ridgeways, Nairobi",
+      "county": "Nairobi",
+      "price": 12500000,
+      "category": "Land",
+      "status": "For sale",
+      "size": "¼ acre",
+      "bedrooms": null,
+      "bathrooms": null,
+      "description": "A leafy quarter-acre parcel in a sought-after residential setting. The setting offers room to imagine a considered home of your own.",
+      "amenities": [
+        "Residential neighbourhood",
+        "Road access",
+        "Utilities nearby"
+      ],
+      "featured": true,
+      "published": true,
+      "createdAt": "2026-10-23T10:47:24.027Z",
+      "updatedAt": "2026-10-23T10:47:24.027Z",
+      "images": [
+        {
+          "id": "cmvkuimwr0009laqd7t500uku",
+          "url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1400&q=85",
+          "alt": "A quieter kind of space property image 1",
+          "position": 0,
+          "propertyId": "cmvkuimwr0008laqdiwquzgdi"
+        },
+        {
+          "id": "cmvkuimwr000alaqdobs9air9",
+          "url": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1400&q=85",
+          "alt": "A quieter kind of space property image 2",
+          "position": 1,
+          "propertyId": "cmvkuimwr0008laqdiwquzgdi"
+        }
+      ]
+    },
+    {
+      "id": "cmvkuimwz000blaqd5ev99m94",
+      "slug": "coastline-villa-diani",
+      "reference": "MK-0245",
+      "title": "Coastline villa, Diani",
+      "location": "Diani Beach, Kwale",
+      "county": "Kwale",
+      "price": 36000000,
+      "category": "House",
+      "status": "For sale",
+      "size": "3,100 sq ft",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "description": "A relaxed coastal retreat with open-air living and private outdoor space. A thoughtful base for slow mornings and warm evenings.",
+      "amenities": [
+        "Private pool",
+        "Garden",
+        "Outdoor dining",
+        "Guest suite"
+      ],
+      "featured": true,
+      "published": true,
+      "createdAt": "2026-10-23T10:47:24.035Z",
+      "updatedAt": "2026-10-23T10:47:24.035Z",
+      "images": [
+        {
+          "id": "cmvkuimwz000claqdlljd7mgm",
+          "url": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1400&q=85",
+          "alt": "Coastline villa, Diani property image 1",
+          "position": 0,
+          "propertyId": "cmvkuimwz000blaqd5ev99m94"
+        },
+        {
+          "id": "cmvkuimwz000dlaqdnehhwbfv",
+          "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=85",
+          "alt": "Coastline villa, Diani property image 2",
+          "position": 1,
+          "propertyId": "cmvkuimwz000blaqd5ev99m94"
+        },
+        {
+          "id": "cmvkuimwz000elaqd0ir49gzq",
+          "url": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1400&q=85",
+          "alt": "Coastline villa, Diani property image 3",
+          "position": 2,
+          "propertyId": "cmvkuimwz000blaqd5ev99m94"
+        }
+      ]
+    },
+    {
+      "id": "cmvkuimx7000flaqd711vysgt",
+      "slug": "limuru-road-land",
+      "reference": "MK-0244",
+      "title": "Room to grow, Limuru Road",
+      "location": "Kiambu Road, Kiambu",
+      "county": "Kiambu",
+      "price": 8200000,
+      "category": "Land",
+      "status": "For sale",
+      "size": "½ acre",
+      "bedrooms": null,
+      "bathrooms": null,
+      "description": "A half-acre plot offering a little more breathing room within easy reach of Nairobi. Please enquire for current site and title information.",
+      "amenities": [
+        "Accessible location",
+        "Residential setting",
+        "Utilities nearby"
+      ],
+      "featured": false,
+      "published": true,
+      "createdAt": "2026-10-23T10:47:24.043Z",
+      "updatedAt": "2026-10-23T10:47:24.043Z",
+      "images": [
+        {
+          "id": "cmvkuimx7000glaqdz11vohea",
+          "url": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1400&q=85",
+          "alt": "Room to grow, Limuru Road property image 1",
+          "position": 0,
+          "propertyId": "cmvkuimx7000flaqd711vysgt"
+        },
+        {
+          "id": "cmvkuimx7000hlaqdvy1f2ea2",
+          "url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1400&q=85",
+          "alt": "Room to grow, Limuru Road property image 2",
+          "position": 1,
+          "propertyId": "cmvkuimx7000flaqd711vysgt"
+        }
+      ]
+    },
+    {
+      "id": "cmvkuimxe000ilaqdwmxbego3",
+      "slug": "westlands-workspace",
+      "reference": "MK-0243",
+      "title": "A brighter workspace",
+      "location": "Westlands, Nairobi",
+      "county": "Nairobi",
+      "price": 320000,
+      "category": "Commercial",
+      "status": "For rent",
+      "size": "2,400 sq ft",
+      "bedrooms": null,
+      "bathrooms": null,
+      "description": "A bright, flexible commercial space in the heart of Westlands. Well suited to a growing team looking for a welcoming address.",
+      "amenities": [
+        "Secure parking",
+        "Lift access",
+        "Backup generator",
+        "Reception"
+      ],
+      "featured": false,
+      "published": true,
+      "createdAt": "2026-10-23T10:47:24.051Z",
+      "updatedAt": "2026-10-23T10:47:24.051Z",
+      "images": [
+        {
+          "id": "cmvkuimxf000jlaqdrmwxbuqh",
+          "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=85",
+          "alt": "A brighter workspace property image 1",
+          "position": 0,
+          "propertyId": "cmvkuimxe000ilaqdwmxbego3"
+        },
+        {
+          "id": "cmvkuimxf000klaqd22exuuj1",
+          "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1400&q=85",
+          "alt": "A brighter workspace property image 2",
+          "position": 1,
+          "propertyId": "cmvkuimxe000ilaqdwmxbego3"
+        }
+      ]
+    }
+  ]
+}
